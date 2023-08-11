@@ -1,10 +1,10 @@
 INSERT INTO department (name)
-VALUES ("Engineering"), ("Finance"), ("Legal"), ("Sales");
+VALUES ("Engineering"), ("Business"), ("Legal"), ("Sales");
 
 INSERT INTO
     roles (title, department, salary)
 VALUES ("Sales Lead", "Sales", 100000), ("Salesperson", "Sales", 80000), (
-        "Lead Engineer",
+        "Lead Developer",
         "Engineering",
         150000
     ), (
@@ -13,11 +13,11 @@ VALUES ("Sales Lead", "Sales", 100000), ("Salesperson", "Sales", 80000), (
         220000
     ), (
         "Account Manager",
-        "Finance",
+        "Business",
         160000
     ), (
         "Accountant",
-        "Finance",
+        "Business",
         125000
     ), (
         "Legal Team Lead",
@@ -66,14 +66,14 @@ VALUES (
         "Tyler",
         "Lockett",
         "Account Manager",
-        "Finance",
+        "Business",
         160000,
         "NULL"
     ), (
         "Zach",
         "Lavine",
         "Accountant",
-        "Finance",
+        "Business",
         125000,
         "Tyler Lockett"
     ), (
